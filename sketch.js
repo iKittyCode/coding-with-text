@@ -5,7 +5,7 @@ function preload() {
 }
 function setup() {
   createCanvas(400, 400);
- frameRate(4)
+  frameRate(4)
  
 }
 
