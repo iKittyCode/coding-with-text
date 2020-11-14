@@ -22,7 +22,7 @@ function keyPressed() {
 if (keyCode == RIGHT_ARROW) {
 index+=1
 }
-  if (index == 5) {
+  if (index == textfile.length) {
   index = 0
 }
 }
