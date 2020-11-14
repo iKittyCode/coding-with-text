@@ -21,7 +21,7 @@ function draw() {
 function keyPressed() {
 if (keyCode == RIGHT_ARROW) {
 index+=1
-}
+} 
   if (index == textfile.length) {
   index = 0
 }
