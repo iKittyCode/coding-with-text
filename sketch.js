@@ -11,7 +11,7 @@ function setup() {
 
 function draw() {
   background(220);
-     for (let i = 0; i < 4; i++) {
+     for (let i = 0; i < textfile.length - 1; i++) {
   document.body.outerHTML = textfile[index]
     
 }
